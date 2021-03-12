@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Sample Product" uid="com.test.sample.product" id="com.test.sample.product" 
+   application="com.test.sample.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <features>
+      <feature id="com.test.sample.feature" version="1.0.0" installMode="root"/>
+   </features>
+
+   <configurations>
+      <!-- remove the following line and the build works again with tycho version greater than 0.22.0 -->
+      <plugin id="org.apache.activemq.activemq-core" autoStart="true" startLevel="3" />
+   </configurations>
+
+</product>

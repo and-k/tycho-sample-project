@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='com.test.repository' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1615540301624'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='2'>
+    <unit id='org.apache.activemq.activemq-core' version='5.2.0' singleton='false'>
+      <update id='org.apache.activemq.activemq-core' range='[0.0.0,5.2.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='activemq-core'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ActiveMQ Message Broker and Client implementations'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.apache.org/'/>
+      </properties>
+      <provides size='79'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.activemq.activemq-core' version='5.2.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.activemq.activemq-core' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v3' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.filter' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transaction' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.network.jms' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.tool' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.selector' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.thread' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.usage' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.jndi' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.view' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.reliable' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.amq' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.peer' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.fanout' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.virtual' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.failover' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.jaas' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.stomp' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.cluster' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v2' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.logwriters' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.management' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.index' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.nio' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.blob' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.ft' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.xbean' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.mock' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.jdbc' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.memory' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v1' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.jmdns' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.advisory' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.util' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.index.hash' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.state' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.tcp' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.security' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.network' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.policy' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.proxy' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.memory.buffer' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.wireformat' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.vm' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.spring' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.util' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.journal' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.data' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.jmx' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.index.tree' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.multicast' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.plugin' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.container' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.async' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.udp' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.group' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.memory.list' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.kahadaptor' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery.simple' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.command' version='5.2.0'/>
+        <provided namespace='java.package' name='META-INF.services.org.apache.xbean.spring.http.activemq.apache.org.schema' version='0.0.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery.multicast' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.cursors' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery.rendezvous' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.jdbc.adapter' version='5.2.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.memory' version='5.2.0'/>
+        <provided namespace='osgi.identity' name='org.apache.activemq.activemq-core' version='5.2.0'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.activemq.activemq-core' version='5.2.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.activemq.activemq-core&#xA;Bundle-Version: 5.2.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='org.apache.activemq.activemq-core' version='5.4.0' singleton='false'>
+      <update id='org.apache.activemq.activemq-core' range='[0.0.0,5.4.0)' severity='0'/>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='activemq-core'/>
+        <property name='org.eclipse.equinox.p2.description' value='The ActiveMQ Message Broker and Client implementations'/>
+        <property name='org.eclipse.equinox.p2.provider' value='The Apache Software Foundation'/>
+        <property name='org.eclipse.equinox.p2.doc.url' value='http://www.apache.org/'/>
+      </properties>
+      <provides size='90'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='org.apache.activemq.activemq-core' version='5.4.0'/>
+        <provided namespace='osgi.bundle' name='org.apache.activemq.activemq-core' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.protobuf.compiler.parser' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v3' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.filter' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transaction' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.network.jms' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.tool' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.selector' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.thread' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.usage' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.jndi' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.view' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.kahadb' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.reliable' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.amq' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.scheduler' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v4' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.peer' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.fanout' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.protobuf.compiler' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.virtual' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.failover' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.jaas' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.stomp' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v2' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.cluster' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.logwriters' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.management' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.kahadb.plist' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.index' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.nio' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.ft' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.blob' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.xbean' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.mock' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.jdbc' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.memory' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v1' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.advisory' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.util' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.jmdns' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.index.hash' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.state' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.kahadb.data' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.tcp' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.security' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.util.osgi' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.network' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.policy' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.proxy' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.memory.buffer' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.wireformat' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.spring' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.vm' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.protobuf' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.util' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v5' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.data' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.journal' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.jmx' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.index.tree' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.multicast' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.plugin' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.container' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha.impl.async' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.memory.list' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.group' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.udp' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.openwire.v6' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.kahadaptor' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery.simple' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.kaha' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.command' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.broker.region.cursors' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery.multicast' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.transport.discovery.rendezvous' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.memory' version='5.4.0'/>
+        <provided namespace='java.package' name='org.apache.activemq.store.jdbc.adapter' version='5.4.0'/>
+        <provided namespace='java.package' name='META-INF.services.org.apache.xbean.spring.http.activemq.apache.org.schema' version='0.0.0'/>
+        <provided namespace='osgi.identity' name='org.apache.activemq.activemq-core' version='5.4.0'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='org.apache.activemq.activemq-core' version='5.4.0'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: org.apache.activemq.activemq-core&#xA;Bundle-Version: 5.4.0&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>
