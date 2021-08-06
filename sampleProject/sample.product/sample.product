@@ -17,8 +17,8 @@
    </features>
 
    <configurations>
-      <!-- remove the following line and the build works again with tycho version greater than 0.22.0 -->
-      <plugin id="org.apache.activemq.activemq-core" autoStart="true" startLevel="3" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator.manipulator" autoStart="true" startLevel="2" />
    </configurations>
 
 </product>

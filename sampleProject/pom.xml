@@ -9,11 +9,8 @@
     <packaging>pom</packaging>
 
     <properties>
-        <tycho.version>2.2.0</tycho.version>
-        <!-- <tycho.version>1.7.0</tycho.version> -->
-        <!-- <tycho.version>0.23.1</tycho.version> -->
-        <!-- 0.22.0 is the last working version -->
-        <!-- <tycho.version>0.22.0</tycho.version> -->
+        <!-- <tycho.version>2.4.0</tycho.version> -->
+        <tycho.version>2.5.0-SNAPSHOT</tycho.version>
 
         <eclipse-repository-url>https://download.eclipse.org/eclipse/updates/4.6</eclipse-repository-url>
     </properties>
@@ -22,7 +19,7 @@
         <repository>
             <id>sampleRepository</id>
             <layout>p2</layout>
-            <url>file:///C:/temp/tycho-sample-project/sampleRepository/</url>
+            <url>file:///C:/git/github/tycho-sample-project/sampleRepository/</url>
         </repository>
         <repository>
             <id>eclipse46</id>
@@ -47,6 +44,14 @@
                     <resolver>p2</resolver>
                     <pomDependencies>consider</pomDependencies>
                     <ignoreTychoRepositories>false</ignoreTychoRepositories>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>tycho-p2-publisher-plugin</artifactId>
+                <version>${tycho.version}</version>
+                <configuration>
+                    <ignorePluginConfiguration>true</ignorePluginConfiguration>
                 </configuration>
             </plugin>
         </plugins>
