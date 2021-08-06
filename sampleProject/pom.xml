@@ -19,7 +19,7 @@
         <repository>
             <id>sampleRepository</id>
             <layout>p2</layout>
-            <url>file:///C:/temp/tycho-sample-project/sampleRepository/</url>
+            <url>file:///C:/git/github/tycho-sample-project/sampleRepository/</url>
         </repository>
         <repository>
             <id>eclipse46</id>
